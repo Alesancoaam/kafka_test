@@ -1,0 +1,22 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "kafka-consumer-test",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --inspect",
+    "dev": "nodemon --inspect index.js"
+  },
+  "keywords": [
+    "kafka",
+    "consumer"
+  ],
+  "author": "Alesanco Araújo Marins",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "kafkajs": "^1.15.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1"
+  }
+}
